@@ -1,0 +1,12 @@
+{
+  "domain": "amt8000",
+  "name": "Intelbras AMT-8000",
+  "codeowners": [],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/merencia/amt8000-hass-integration",
+  "iot_class": "local_polling",
+  "requirements": [],
+  "issue_tracker": "https://github.com/merencia/amt8000-hass-integration/issues",
+  "version": "1.0.0"
+}
