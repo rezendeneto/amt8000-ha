@@ -1,0 +1,30 @@
+"""Constants for the AMT-8000 integration."""
+
+from homeassistant.const import CONF_HOST, CONF_PASSWORD, CONF_PORT
+
+DOMAIN = "amt8000"
+
+DEFAULT_PORT = 9009
+DEFAULT_NUM_ZONES = 48
+DEFAULT_NUM_PARTITIONS = 4
+
+CONF_NUM_ZONES = "num_zones"
+CONF_NUM_PARTITIONS = "num_partitions"
+CONF_AWAY_PARTITIONS = "away_partitions"
+CONF_STAY_PARTITIONS = "stay_partitions"
+CONF_NIGHT_PARTITIONS = "night_partitions"
+
+__all__ = [
+    "CONF_HOST",
+    "CONF_PASSWORD",
+    "CONF_PORT",
+    "DOMAIN",
+    "DEFAULT_PORT",
+    "DEFAULT_NUM_ZONES",
+    "DEFAULT_NUM_PARTITIONS",
+    "CONF_NUM_ZONES",
+    "CONF_NUM_PARTITIONS",
+    "CONF_AWAY_PARTITIONS",
+    "CONF_STAY_PARTITIONS",
+    "CONF_NIGHT_PARTITIONS",
+]

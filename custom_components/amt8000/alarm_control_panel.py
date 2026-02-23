@@ -80,6 +80,7 @@ class AMTAlarmPanel(CoordinatorEntity[AMTCoordinator], AlarmControlPanelEntity):
     """Main AMT-8000 alarm control panel."""
 
     _attr_has_entity_name = True
+    _attr_code_arm_required = False
 
     def __init__(
         self,
@@ -218,6 +219,7 @@ class AMTPartitionPanel(CoordinatorEntity[AMTCoordinator], AlarmControlPanelEnti
     """Individual partition alarm control panel."""
 
     _attr_has_entity_name = True
+    _attr_code_arm_required = False
 
     def __init__(
         self,

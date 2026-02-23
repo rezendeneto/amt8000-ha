@@ -1,0 +1,39 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Intelbras AMT-8000",
+        "description": "Connect to your Intelbras AMT-8000 alarm system.",
+        "data": {
+          "host": "Host",
+          "port": "Port",
+          "password": "Password",
+          "num_zones": "Number of zones",
+          "num_partitions": "Number of partitions",
+          "away_partitions": "Away partitions (comma-separated, 0 = all)",
+          "stay_partitions": "Home/Stay partitions (comma-separated, leave empty to disable)",
+          "night_partitions": "Night partitions (comma-separated, leave empty to disable)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Unable to connect to the alarm panel. Check host and port.",
+      "invalid_auth": "Invalid password.",
+      "unknown": "Unexpected error."
+    },
+    "abort": {
+      "already_configured": "This alarm panel is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "AMT-8000 Options",
+        "data": {
+          "num_zones": "Number of zones",
+          "num_partitions": "Number of partitions"
+        }
+      }
+    }
+  }
+}

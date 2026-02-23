@@ -1,0 +1,7 @@
+{
+  "name": "Intelbras AMT-8000",
+  "render_readme": true,
+  "domains": ["alarm_control_panel"],
+  "iot_class": "local_polling",
+  "homeassistant": "2024.1.0"
+}
